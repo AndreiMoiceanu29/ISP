@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qoXGMLjDEeyKsfoJcaU9Vg" name="diagrama_activitati">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qrLwsLjDEeyKsfoJcaU9Vg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_qpVWkLjDEeyKsfoJcaU9Vg" name="Return order" node="_wQNfgLjDEeyKsfoJcaU9Vg _2GbsALjDEeyKsfoJcaU9Vg _NRtf0LjEEeyKsfoJcaU9Vg _Rm6lgLjEEeyKsfoJcaU9Vg _e8dqULjEEeyKsfoJcaU9Vg _jKg_ILjEEeyKsfoJcaU9Vg _llWp4LjEEeyKsfoJcaU9Vg _oUeikLjEEeyKsfoJcaU9Vg _qf4DILjEEeyKsfoJcaU9Vg _r6oJ4LjEEeyKsfoJcaU9Vg _VGkt0LjFEeyKsfoJcaU9Vg _c51OwLjFEeyKsfoJcaU9Vg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Xpd90LjEEeyKsfoJcaU9Vg" target="_2GbsALjDEeyKsfoJcaU9Vg" source="_wQNfgLjDEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YuhhYLjEEeyKsfoJcaU9Vg" target="_Rm6lgLjEEeyKsfoJcaU9Vg" source="_2GbsALjDEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ajdCsLjEEeyKsfoJcaU9Vg" target="_NRtf0LjEEeyKsfoJcaU9Vg" source="_Rm6lgLjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_u94fgLjEEeyKsfoJcaU9Vg" name="[CAN BE CANCELED]" target="_e8dqULjEEeyKsfoJcaU9Vg" source="_NRtf0LjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3cj8ALjEEeyKsfoJcaU9Vg" target="_jKg_ILjEEeyKsfoJcaU9Vg" source="_e8dqULjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7On4YLjEEeyKsfoJcaU9Vg" name="[WAS DELIVERED]" target="_llWp4LjEEeyKsfoJcaU9Vg" source="_jKg_ILjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8ANtYLjEEeyKsfoJcaU9Vg" name="[NOT DELIVERED]" target="_oUeikLjEEeyKsfoJcaU9Vg" source="_jKg_ILjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CrJ7YLjFEeyKsfoJcaU9Vg" target="_qf4DILjEEeyKsfoJcaU9Vg" source="_r6oJ4LjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fMOIILjFEeyKsfoJcaU9Vg" target="_c51OwLjFEeyKsfoJcaU9Vg" source="_llWp4LjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f8JJMLjFEeyKsfoJcaU9Vg" target="_c51OwLjFEeyKsfoJcaU9Vg" source="_oUeikLjEEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gzirQLjFEeyKsfoJcaU9Vg" target="_r6oJ4LjEEeyKsfoJcaU9Vg" source="_c51OwLjFEeyKsfoJcaU9Vg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_h4SFwLjFEeyKsfoJcaU9Vg" name="[CANNOT BE CANCELED]" target="_VGkt0LjFEeyKsfoJcaU9Vg" source="_NRtf0LjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_wQNfgLjDEeyKsfoJcaU9Vg" name="" outgoing="_Xpd90LjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2GbsALjDEeyKsfoJcaU9Vg" name="Client issues order cancelation/return" incoming="_Xpd90LjEEeyKsfoJcaU9Vg" outgoing="_YuhhYLjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_NRtf0LjEEeyKsfoJcaU9Vg" incoming="_ajdCsLjEEeyKsfoJcaU9Vg" outgoing="_u94fgLjEEeyKsfoJcaU9Vg _h4SFwLjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Rm6lgLjEEeyKsfoJcaU9Vg" name="Manager checks if order can be canceled" incoming="_YuhhYLjEEeyKsfoJcaU9Vg" outgoing="_ajdCsLjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e8dqULjEEeyKsfoJcaU9Vg" name="Manager checks if the order has been delivered" incoming="_u94fgLjEEeyKsfoJcaU9Vg" outgoing="_3cj8ALjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_jKg_ILjEEeyKsfoJcaU9Vg" name="" incoming="_3cj8ALjEEeyKsfoJcaU9Vg" outgoing="_7On4YLjEEeyKsfoJcaU9Vg _8ANtYLjEEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_llWp4LjEEeyKsfoJcaU9Vg" name="Assigns a courier to return the order" incoming="_7On4YLjEEeyKsfoJcaU9Vg" outgoing="_fMOIILjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oUeikLjEEeyKsfoJcaU9Vg" name="Courier returns the order" incoming="_8ANtYLjEEeyKsfoJcaU9Vg" outgoing="_f8JJMLjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_qf4DILjEEeyKsfoJcaU9Vg" name="Order returned" incoming="_CrJ7YLjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_r6oJ4LjEEeyKsfoJcaU9Vg" name="Set the order state to canceled" incoming="_gzirQLjFEeyKsfoJcaU9Vg" outgoing="_CrJ7YLjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_VGkt0LjFEeyKsfoJcaU9Vg" name="Continue delivery" incoming="_h4SFwLjFEeyKsfoJcaU9Vg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_c51OwLjFEeyKsfoJcaU9Vg" name="Refund" incoming="_fMOIILjFEeyKsfoJcaU9Vg _f8JJMLjFEeyKsfoJcaU9Vg" outgoing="_gzirQLjFEeyKsfoJcaU9Vg"/>
+  </packagedElement>
+</uml:Model>
