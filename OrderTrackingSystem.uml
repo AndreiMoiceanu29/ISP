@@ -4,26 +4,26 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_kYfqUKkPEey8nNuoo6Hc0g" name="Sistem de urmarire comenzi">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_R4EccLf_EeyKsfoJcaU9Vg" name="Cumpara produs">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R4EccLf_EeyKsfoJcaU9Vg" name="Buy Product">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rL7Q4LgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r4ol4LgAEeyKsfoJcaU9Vg" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_TUmr4Lf_EeyKsfoJcaU9Vg" name="Urmareste status comanda"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_XY614Lf_EeyKsfoJcaU9Vg" name="Retur comanda"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_e9h20Lf_EeyKsfoJcaU9Vg" name="Livreaza produs"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_gm8EoLf_EeyKsfoJcaU9Vg" name="Actualizeaza Status"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_QG_q8LgAEeyKsfoJcaU9Vg" name="Plata Card">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TUmr4Lf_EeyKsfoJcaU9Vg" name="View Command Status"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XY614Lf_EeyKsfoJcaU9Vg" name="Product return"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e9h20Lf_EeyKsfoJcaU9Vg" name="Deliver Product"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gm8EoLf_EeyKsfoJcaU9Vg" name="Update Status"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QG_q8LgAEeyKsfoJcaU9Vg" name="Card Payment">
       <extend xmi:type="uml:Extend" xmi:id="_r4n-0LgAEeyKsfoJcaU9Vg" extendedCase="_R4EccLf_EeyKsfoJcaU9Vg" extensionLocation="_r4ol4LgAEeyKsfoJcaU9Vg"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UZD9ELgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ri95sLgAEeyKsfoJcaU9Vg" name="Plata Ramburs">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ri95sLgAEeyKsfoJcaU9Vg" name="Cash payment">
       <extend xmi:type="uml:Extend" xmi:id="_rL6p0LgAEeyKsfoJcaU9Vg" extendedCase="_R4EccLf_EeyKsfoJcaU9Vg" extensionLocation="_rL7Q4LgAEeyKsfoJcaU9Vg"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_V9b54LgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LvsI8Lf_EeyKsfoJcaU9Vg" name="Client"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_MNYKgLf_EeyKsfoJcaU9Vg" name="Manager"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_MfpmQLf_EeyKsfoJcaU9Vg" name="Curier"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MfpmQLf_EeyKsfoJcaU9Vg" name="Courier"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_ka3pQLf_EeyKsfoJcaU9Vg" memberEnd="_ka_lELf_EeyKsfoJcaU9Vg _kbAzMLf_EeyKsfoJcaU9Vg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ka9I0Lf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ka9v4Lf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>

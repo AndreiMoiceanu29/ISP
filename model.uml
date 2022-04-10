@@ -10,63 +10,63 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_wyCS4LgCEeyKsfoJcaU9Vg" name="Client">
     <generalization xmi:type="uml:Generalization" xmi:id="_7lVdYLgCEeyKsfoJcaU9Vg" general="_o2L2oLgCEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_cHNiQLgFEeyKsfoJcaU9Vg" name="nume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cHNiQLgFEeyKsfoJcaU9Vg" name="lastName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_glnAMLgFEeyKsfoJcaU9Vg" name="prenume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_glnAMLgFEeyKsfoJcaU9Vg" name="firstName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ikoRoLgFEeyKsfoJcaU9Vg" name="varsta" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ikoRoLgFEeyKsfoJcaU9Vg" name="age" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_meVuILgFEeyKsfoJcaU9Vg" name="adresa" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_meVuILgFEeyKsfoJcaU9Vg" name="adress" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_q7Vd4LgFEeyKsfoJcaU9Vg" name="idComenzi" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q7Vd4LgFEeyKsfoJcaU9Vg" name="idCommand" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w7Px4LgFEeyKsfoJcaU9Vg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wXYP0LgFEeyKsfoJcaU9Vg" value="*"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_UR9AwLgGEeyKsfoJcaU9Vg" name="metodaDePlata" visibility="private" type="_23qtALgFEeyKsfoJcaU9Vg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UR9AwLgGEeyKsfoJcaU9Vg" name="paymentMethod" visibility="private" type="_23qtALgFEeyKsfoJcaU9Vg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Fi8VALgOEeyKsfoJcaU9Vg" name="username" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_LVwBILgOEeyKsfoJcaU9Vg" name="parola" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LVwBILgOEeyKsfoJcaU9Vg" name="password" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_xF6RILgCEeyKsfoJcaU9Vg" name="Manager">
     <generalization xmi:type="uml:Generalization" xmi:id="_-kf9MLgCEeyKsfoJcaU9Vg" general="_o2L2oLgCEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_5XYJULgIEeyKsfoJcaU9Vg" name="nume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5XYJULgIEeyKsfoJcaU9Vg" name="lastName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9e5YULgIEeyKsfoJcaU9Vg" name="prenume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9e5YULgIEeyKsfoJcaU9Vg" name="firstName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_AXumoLgJEeyKsfoJcaU9Vg" name="username" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_FiCIULgJEeyKsfoJcaU9Vg" name="parola" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FiCIULgJEeyKsfoJcaU9Vg" name="password" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_I_o3oLgJEeyKsfoJcaU9Vg" name="idComenzi" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I_o3oLgJEeyKsfoJcaU9Vg" name="idCommands" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NZfz0LgJEeyKsfoJcaU9Vg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NaaZ0LgJEeyKsfoJcaU9Vg" value="*"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_xdwJYLgCEeyKsfoJcaU9Vg" name="Curier">
+  <packagedElement xmi:type="uml:Class" xmi:id="_xdwJYLgCEeyKsfoJcaU9Vg" name="Courier">
     <generalization xmi:type="uml:Generalization" xmi:id="__HYAwLgCEeyKsfoJcaU9Vg" general="_o2L2oLgCEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_7Go1kLgKEeyKsfoJcaU9Vg" name="nume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7Go1kLgKEeyKsfoJcaU9Vg" name="lastName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9zQM0LgKEeyKsfoJcaU9Vg" name="prenume" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9zQM0LgKEeyKsfoJcaU9Vg" name="firstName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_BY7TALgLEeyKsfoJcaU9Vg" name="telefon" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BY7TALgLEeyKsfoJcaU9Vg" name="phoneNumber" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_GTKYYLgLEeyKsfoJcaU9Vg" name="idComenzi" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GTKYYLgLEeyKsfoJcaU9Vg" name="idCommands" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ILtOYLgLEeyKsfoJcaU9Vg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IMhGsLgLEeyKsfoJcaU9Vg" value="*"/>
@@ -74,16 +74,16 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_09AOwLgTEeyKsfoJcaU9Vg" name="username" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_4EzGILgTEeyKsfoJcaU9Vg" name="parola" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4EzGILgTEeyKsfoJcaU9Vg" name="password" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_0cd9QLgCEeyKsfoJcaU9Vg" name="Comanda" visibility="public">
+  <packagedElement xmi:type="uml:Class" xmi:id="_0cd9QLgCEeyKsfoJcaU9Vg" name="Command" visibility="public">
     <generalization xmi:type="uml:Generalization" xmi:id="_-Dfh4LgCEeyKsfoJcaU9Vg" general="_o2L2oLgCEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9OzjULgHEeyKsfoJcaU9Vg" name="denumire" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9OzjULgHEeyKsfoJcaU9Vg" name="name" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Az-6QLgIEeyKsfoJcaU9Vg" name="pret" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Az-6QLgIEeyKsfoJcaU9Vg" name="price" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OshXYLgIEeyKsfoJcaU9Vg" name="status" visibility="private">
@@ -95,7 +95,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_kk8cMLgIEeyKsfoJcaU9Vg" name="managerId" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_nGJNoLgIEeyKsfoJcaU9Vg" name="curierId" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nGJNoLgIEeyKsfoJcaU9Vg" name="courierId" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
   </packagedElement>
@@ -135,23 +135,23 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_E1lrULgEEeyKsfoJcaU9Vg" name="load"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_G7xUsLgEEeyKsfoJcaU9Vg" name="save"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QaO9wLgFEeyKsfoJcaU9Vg" name="ComandaService">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ymUWILgREeyKsfoJcaU9Vg" name="comenziRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_LhblULgREeyKsfoJcaU9Vg" name="creazaComanda">
+  <packagedElement xmi:type="uml:Class" xmi:id="_QaO9wLgFEeyKsfoJcaU9Vg" name="CommandService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ymUWILgREeyKsfoJcaU9Vg" name="commandsRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LhblULgREeyKsfoJcaU9Vg" name="createCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_OX-7sLgREeyKsfoJcaU9Vg" name="comandaNoua" type="_0cd9QLgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_TjKAELgREeyKsfoJcaU9Vg" name="editeazaComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TjKAELgREeyKsfoJcaU9Vg" name="editCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_WelPYLgREeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_bdjq0LgREeyKsfoJcaU9Vg" name="comandaNoua" type="_0cd9QLgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_dpTwsLgREeyKsfoJcaU9Vg" name="stergeComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dpTwsLgREeyKsfoJcaU9Vg" name="deleteCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_g7ZMgLgREeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_sBG8sLgREeyKsfoJcaU9Vg" name="schimbaStatus">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sBG8sLgREeyKsfoJcaU9Vg" name="updateStatus">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_vTTtQLgREeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -162,32 +162,32 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Q2D-ILgFEeyKsfoJcaU9Vg" name="ManagerService" visibility="public">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BTF3ILgTEeyKsfoJcaU9Vg" name="managerRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_rDkrgLgTEeyKsfoJcaU9Vg" name="comandaService" visibility="private" type="_QaO9wLgFEeyKsfoJcaU9Vg"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_FE8_MLgTEeyKsfoJcaU9Vg" name="creazaContManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rDkrgLgTEeyKsfoJcaU9Vg" name="commandService" visibility="private" type="_QaO9wLgFEeyKsfoJcaU9Vg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FE8_MLgTEeyKsfoJcaU9Vg" name="createManagerAccount">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_LWf1wLgTEeyKsfoJcaU9Vg" name="managerNou" type="_xF6RILgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_HC22ULgTEeyKsfoJcaU9Vg" name="editeazaContManager">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HC22ULgTEeyKsfoJcaU9Vg" name="editManagerAccount">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_M-P2sLgTEeyKsfoJcaU9Vg" name="idManager">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_O4cSgLgTEeyKsfoJcaU9Vg" name="managerNou" type="_xF6RILgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_IyHNcLgTEeyKsfoJcaU9Vg" name="stergeManager">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IyHNcLgTEeyKsfoJcaU9Vg" name="deleteManager">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_RoHk0LgTEeyKsfoJcaU9Vg" name="idManager">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_cVBMYLgTEeyKsfoJcaU9Vg" name="confirmaComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cVBMYLgTEeyKsfoJcaU9Vg" name="confirmCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_lbjTELgTEeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_egmTILgTEeyKsfoJcaU9Vg" name="predaComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_egmTILgTEeyKsfoJcaU9Vg" name="handOverCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_nPadYLgTEeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_gsJksLgTEeyKsfoJcaU9Vg" name="aprobaReturComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gsJksLgTEeyKsfoJcaU9Vg" name="approveCommandReturn">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_pHQv0LgTEeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -201,29 +201,29 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RFUiILgFEeyKsfoJcaU9Vg" name="CurierService">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_DieVQLgSEeyKsfoJcaU9Vg" name="curierRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_4yAm4LgSEeyKsfoJcaU9Vg" name="comandaService" visibility="private" type="_QaO9wLgFEeyKsfoJcaU9Vg"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_KmET0LgSEeyKsfoJcaU9Vg" name="creazaCurier">
+  <packagedElement xmi:type="uml:Class" xmi:id="_RFUiILgFEeyKsfoJcaU9Vg" name="CourierService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DieVQLgSEeyKsfoJcaU9Vg" name="courierRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4yAm4LgSEeyKsfoJcaU9Vg" name="commandService" visibility="private" type="_QaO9wLgFEeyKsfoJcaU9Vg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KmET0LgSEeyKsfoJcaU9Vg" name="createCourier">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ORutQLgSEeyKsfoJcaU9Vg" name="curier" type="_xdwJYLgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_P2tHALgSEeyKsfoJcaU9Vg" name="editeazaCurier">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_P2tHALgSEeyKsfoJcaU9Vg" name="editCourier">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ToEf0LgSEeyKsfoJcaU9Vg" name="idCurier">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_aCCSkLgSEeyKsfoJcaU9Vg" name="curierNou" type="_xdwJYLgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_bNv3wLgSEeyKsfoJcaU9Vg" name="stergeCurier">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bNv3wLgSEeyKsfoJcaU9Vg" name="deleteCourier">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_fVZpoLgSEeyKsfoJcaU9Vg" name="idCurier">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_swadQLgSEeyKsfoJcaU9Vg" name="preiaComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_swadQLgSEeyKsfoJcaU9Vg" name="takeCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_u5C9sLgSEeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_y0ZY8LgSEeyKsfoJcaU9Vg" name="livreazaComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_y0ZY8LgSEeyKsfoJcaU9Vg" name="deliverCommand">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_3PsfkLgSEeyKsfoJcaU9Vg" name="idComanda">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -239,28 +239,28 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_RZzkYLgFEeyKsfoJcaU9Vg" name="ClientService">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Gi_K0LgQEeyKsfoJcaU9Vg" name="clientRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_o4bxALgQEeyKsfoJcaU9Vg" name="comenziRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_QejRgLgPEeyKsfoJcaU9Vg" name="creazaContClient">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o4bxALgQEeyKsfoJcaU9Vg" name="commandsRepo" visibility="private" type="_CUBi8LgDEeyKsfoJcaU9Vg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QejRgLgPEeyKsfoJcaU9Vg" name="createClientAccount">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_VAP7ELgPEeyKsfoJcaU9Vg" name="client" type="_wyCS4LgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_W1SxILgPEeyKsfoJcaU9Vg" name="editeazaContClient">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_W1SxILgPEeyKsfoJcaU9Vg" name="editClientAccount">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_dFMo8LgPEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_fYGfsLgPEeyKsfoJcaU9Vg" name="dateNoiCont" type="_wyCS4LgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_hsCRMLgPEeyKsfoJcaU9Vg" name="stergeCont">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hsCRMLgPEeyKsfoJcaU9Vg" name="deleteAccount">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_lOqDYLgPEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_mofkILgPEeyKsfoJcaU9Vg" name="comandaProdus" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mofkILgPEeyKsfoJcaU9Vg" name="orderProduct" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_qsrLQLgPEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_thus0LgPEeyKsfoJcaU9Vg" name="produs" type="_0cd9QLgCEeyKsfoJcaU9Vg"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_wW0DkLgPEeyKsfoJcaU9Vg" name="returProdus">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wW0DkLgPEeyKsfoJcaU9Vg" name="returnProduct">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_1rXtcLgPEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -268,7 +268,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_4_IkQLgPEeyKsfoJcaU9Vg" name="verificaStatusComanda">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4_IkQLgPEeyKsfoJcaU9Vg" name="viewCommandStatus">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_7YfBQLgPEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -276,7 +276,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_-vQIwLgPEeyKsfoJcaU9Vg" name="getComenzi">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-vQIwLgPEeyKsfoJcaU9Vg" name="getCommands">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_CrCB0LgQEeyKsfoJcaU9Vg" name="idClient">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedParameter>
@@ -287,24 +287,24 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_23qtALgFEeyKsfoJcaU9Vg" name="MetodaDePlata" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_23qtALgFEeyKsfoJcaU9Vg" name="PaymentMethod" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_7BmW0LgFEeyKsfoJcaU9Vg" general="_o2L2oLgCEeyKsfoJcaU9Vg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_8zQhsLgFEeyKsfoJcaU9Vg" name="Ramburs">
+  <packagedElement xmi:type="uml:Class" xmi:id="_8zQhsLgFEeyKsfoJcaU9Vg" name="Cash">
     <generalization xmi:type="uml:Generalization" xmi:id="_fBEO0LgGEeyKsfoJcaU9Vg" general="_23qtALgFEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_aK04oLgGEeyKsfoJcaU9Vg" name="adresaLivrare" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aK04oLgGEeyKsfoJcaU9Vg" name="shippingAdress" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9tII8LgFEeyKsfoJcaU9Vg" name="Card">
     <generalization xmi:type="uml:Generalization" xmi:id="_jDNOkLgGEeyKsfoJcaU9Vg" general="_23qtALgFEeyKsfoJcaU9Vg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="__BiXILgFEeyKsfoJcaU9Vg" name="numarCard" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__BiXILgFEeyKsfoJcaU9Vg" name="cardNumber" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Bf3awLgGEeyKsfoJcaU9Vg" name="numeDetinator" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Bf3awLgGEeyKsfoJcaU9Vg" name="recipientName" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EdVRcLgGEeyKsfoJcaU9Vg" name="dataExpirare" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EdVRcLgGEeyKsfoJcaU9Vg" name="expireDate" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_JiDvkLgGEeyKsfoJcaU9Vg" name="cvv" visibility="private">
