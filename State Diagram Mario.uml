@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_V9IV4LgWEeyGO89Wg0vWLw" name="State Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_V9eUILgWEeyGO89Wg0vWLw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_V9KyILgWEeyGO89Wg0vWLw" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_V9NOYLgWEeyGO89Wg0vWLw" name="Cash">
+      <transition xmi:type="uml:Transition" xmi:id="_NFQHgLgcEeyGO89Wg0vWLw" name="Adding products to bag" source="_xnVWoLgXEeyGO89Wg0vWLw" target="_HMouULgcEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_38nEYLgcEeyGO89Wg0vWLw" name="Cash" source="_HMouULgcEeyGO89Wg0vWLw" target="_YJDMILgcEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_7IQhALgcEeyGO89Wg0vWLw" name="Card" source="_HMouULgcEeyGO89Wg0vWLw" target="_rzkO8LgcEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_D2tpcLgeEeyGO89Wg0vWLw" name="Order change cannot happen" source="_oNjVELgdEeyGO89Wg0vWLw" target="_9D-KULgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KAww4LgeEeyGO89Wg0vWLw" name="Request to see order" source="_xnVWoLgXEeyGO89Wg0vWLw" target="_dFqaoLgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RNePMLgeEeyGO89Wg0vWLw" name="Request change" source="_dFqaoLgdEeyGO89Wg0vWLw" target="_oNjVELgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_aZNmALgeEeyGO89Wg0vWLw" name="Order change valid" source="_oNjVELgdEeyGO89Wg0vWLw" target="_DpzEQLgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_fMZBILgeEeyGO89Wg0vWLw" name="Any more changes?" source="_DpzEQLgdEeyGO89Wg0vWLw" target="_oNjVELgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uiNUkLgeEeyGO89Wg0vWLw" name="No other changes" source="_DpzEQLgdEeyGO89Wg0vWLw" target="_9D-KULgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0IdLYLgeEeyGO89Wg0vWLw" name="No change requested" source="_dFqaoLgdEeyGO89Wg0vWLw" target="_9D-KULgdEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="__kGIQLgeEeyGO89Wg0vWLw" name="Add product to bag" source="_HMouULgcEeyGO89Wg0vWLw" target="_HMouULgcEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_y_PEELgfEeyGO89Wg0vWLw" name="Courier received package" source="_YJDMILgcEeyGO89Wg0vWLw" target="_uZCVALgfEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_z3_RALgfEeyGO89Wg0vWLw" name="Courier received package" source="_rzkO8LgcEeyGO89Wg0vWLw" target="_uZCVALgfEeyGO89Wg0vWLw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_A0NP0LggEeyGO89Wg0vWLw" name="Items delivered" source="_uZCVALgfEeyGO89Wg0vWLw" target="_9D-KULgdEeyGO89Wg0vWLw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_xnVWoLgXEeyGO89Wg0vWLw" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HMouULgcEeyGO89Wg0vWLw" name="Item bag ready"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YJDMILgcEeyGO89Wg0vWLw" name="Info sent to courier"/>
+      <subvertex xmi:type="uml:State" xmi:id="_rzkO8LgcEeyGO89Wg0vWLw" name="Store processed payment"/>
+      <subvertex xmi:type="uml:State" xmi:id="_DpzEQLgdEeyGO89Wg0vWLw" name="Order state updated"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dFqaoLgdEeyGO89Wg0vWLw" name="Order state shown"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oNjVELgdEeyGO89Wg0vWLw" name="Check order change request valid"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_9D-KULgdEeyGO89Wg0vWLw" name="Activity finished"/>
+      <subvertex xmi:type="uml:State" xmi:id="_uZCVALgfEeyGO89Wg0vWLw" name="Items being delivered"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yx9Z4LgbEeyGO89Wg0vWLw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yx_PELgbEeyGO89Wg0vWLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

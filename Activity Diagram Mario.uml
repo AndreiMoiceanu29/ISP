@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KGVZ8LgJEeyGO89Wg0vWLw" name="Activity Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_KImq0LgJEeyGO89Wg0vWLw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_KHB9gLgJEeyGO89Wg0vWLw" name="Activity1" node="_CLxFMLgLEeyGO89Wg0vWLw _XGjVsLgOEeyGO89Wg0vWLw _lny8ILgPEeyGO89Wg0vWLw _EIbz8LgQEeyGO89Wg0vWLw _EC7zcLgREeyGO89Wg0vWLw _JCAVgLgREeyGO89Wg0vWLw _Quhf0LgSEeyGO89Wg0vWLw _w7174LgSEeyGO89Wg0vWLw _LC1S4LgTEeyGO89Wg0vWLw _AfO70LgUEeyGO89Wg0vWLw _-617cLgUEeyGO89Wg0vWLw _FXtRMLgVEeyGO89Wg0vWLw" group="_YK2gwLgNEeyGO89Wg0vWLw _Z7_HMLgNEeyGO89Wg0vWLw _comecLgNEeyGO89Wg0vWLw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_apdCcLgTEeyGO89Wg0vWLw" inPartition="_YK2gwLgNEeyGO89Wg0vWLw" target="_XGjVsLgOEeyGO89Wg0vWLw" source="_CLxFMLgLEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ekWxwLgTEeyGO89Wg0vWLw" inPartition="_YK2gwLgNEeyGO89Wg0vWLw" target="_lny8ILgPEeyGO89Wg0vWLw" source="_XGjVsLgOEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hWBoILgTEeyGO89Wg0vWLw" name="Check" target="_EIbz8LgQEeyGO89Wg0vWLw" source="_lny8ILgPEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oSqqILgTEeyGO89Wg0vWLw" name="Modify" target="_EC7zcLgREeyGO89Wg0vWLw" source="_lny8ILgPEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qznj8LgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw" target="_LC1S4LgTEeyGO89Wg0vWLw" source="_EC7zcLgREeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_swUhMLgTEeyGO89Wg0vWLw" name="No" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw" target="_JCAVgLgREeyGO89Wg0vWLw" source="_LC1S4LgTEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zDUJQLgTEeyGO89Wg0vWLw" name="No" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw" target="_Quhf0LgSEeyGO89Wg0vWLw" source="_JCAVgLgREeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0gkKYLgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw" target="_w7174LgSEeyGO89Wg0vWLw" source="_Quhf0LgSEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GELyILgUEeyGO89Wg0vWLw" name="Yes" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw" target="_AfO70LgUEeyGO89Wg0vWLw" source="_LC1S4LgTEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JD7rULgVEeyGO89Wg0vWLw" inPartition="_comecLgNEeyGO89Wg0vWLw" target="_FXtRMLgVEeyGO89Wg0vWLw" source="_-617cLgUEeyGO89Wg0vWLw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LIoG8LgVEeyGO89Wg0vWLw" name="Yes" target="_-617cLgUEeyGO89Wg0vWLw" source="_JCAVgLgREeyGO89Wg0vWLw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_YK2gwLgNEeyGO89Wg0vWLw" name="Client" node="_CLxFMLgLEeyGO89Wg0vWLw _XGjVsLgOEeyGO89Wg0vWLw _lny8ILgPEeyGO89Wg0vWLw" edge="_apdCcLgTEeyGO89Wg0vWLw _ekWxwLgTEeyGO89Wg0vWLw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Z7_HMLgNEeyGO89Wg0vWLw" name="Magazin" node="_EIbz8LgQEeyGO89Wg0vWLw _EC7zcLgREeyGO89Wg0vWLw _JCAVgLgREeyGO89Wg0vWLw _Quhf0LgSEeyGO89Wg0vWLw _w7174LgSEeyGO89Wg0vWLw _LC1S4LgTEeyGO89Wg0vWLw _AfO70LgUEeyGO89Wg0vWLw" edge="_qznj8LgTEeyGO89Wg0vWLw _swUhMLgTEeyGO89Wg0vWLw _zDUJQLgTEeyGO89Wg0vWLw _0gkKYLgTEeyGO89Wg0vWLw _GELyILgUEeyGO89Wg0vWLw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_comecLgNEeyGO89Wg0vWLw" name="Curier" node="_-617cLgUEeyGO89Wg0vWLw _FXtRMLgVEeyGO89Wg0vWLw" edge="_JD7rULgVEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_CLxFMLgLEeyGO89Wg0vWLw" name="" outgoing="_apdCcLgTEeyGO89Wg0vWLw" inPartition="_YK2gwLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XGjVsLgOEeyGO89Wg0vWLw" name="Action over a product" incoming="_apdCcLgTEeyGO89Wg0vWLw" outgoing="_ekWxwLgTEeyGO89Wg0vWLw" inPartition="_YK2gwLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_lny8ILgPEeyGO89Wg0vWLw" name="Modify or check?" incoming="_ekWxwLgTEeyGO89Wg0vWLw" outgoing="_hWBoILgTEeyGO89Wg0vWLw _oSqqILgTEeyGO89Wg0vWLw" inPartition="_YK2gwLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EIbz8LgQEeyGO89Wg0vWLw" name="Store shows information regarding order" incoming="_hWBoILgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EC7zcLgREeyGO89Wg0vWLw" name="Change request received" incoming="_oSqqILgTEeyGO89Wg0vWLw" outgoing="_qznj8LgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_JCAVgLgREeyGO89Wg0vWLw" name="Is courier involved?" incoming="_swUhMLgTEeyGO89Wg0vWLw" outgoing="_zDUJQLgTEeyGO89Wg0vWLw _LIoG8LgVEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Quhf0LgSEeyGO89Wg0vWLw" name="Store changes order" incoming="_zDUJQLgTEeyGO89Wg0vWLw" outgoing="_0gkKYLgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_w7174LgSEeyGO89Wg0vWLw" name="Begin additional operations if needed" incoming="_0gkKYLgTEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_LC1S4LgTEeyGO89Wg0vWLw" name="Finished order?" incoming="_qznj8LgTEeyGO89Wg0vWLw" outgoing="_swUhMLgTEeyGO89Wg0vWLw _GELyILgUEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_AfO70LgUEeyGO89Wg0vWLw" name="Order won't be modified" incoming="_GELyILgUEeyGO89Wg0vWLw" inPartition="_Z7_HMLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-617cLgUEeyGO89Wg0vWLw" name="Courier receives request" incoming="_LIoG8LgVEeyGO89Wg0vWLw" outgoing="_JD7rULgVEeyGO89Wg0vWLw" inPartition="_comecLgNEeyGO89Wg0vWLw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FXtRMLgVEeyGO89Wg0vWLw" name="Order modified" incoming="_JD7rULgVEeyGO89Wg0vWLw" inPartition="_comecLgNEeyGO89Wg0vWLw"/>
+  </packagedElement>
+</uml:Model>
