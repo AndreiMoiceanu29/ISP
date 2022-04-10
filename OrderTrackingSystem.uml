@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jaABwKkPEey8nNuoo6Hc0g" name="OrderTrackingSystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jbw8UKkPEey8nNuoo6Hc0g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kYfqUKkPEey8nNuoo6Hc0g" name="Sistem de urmarire comenzi">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R4EccLf_EeyKsfoJcaU9Vg" name="Cumpara produs">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rL7Q4LgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r4ol4LgAEeyKsfoJcaU9Vg" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TUmr4Lf_EeyKsfoJcaU9Vg" name="Urmareste status comanda"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XY614Lf_EeyKsfoJcaU9Vg" name="Retur comanda"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e9h20Lf_EeyKsfoJcaU9Vg" name="Livreaza produs"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gm8EoLf_EeyKsfoJcaU9Vg" name="Actualizeaza Status"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QG_q8LgAEeyKsfoJcaU9Vg" name="Plata Card">
+      <extend xmi:type="uml:Extend" xmi:id="_r4n-0LgAEeyKsfoJcaU9Vg" extendedCase="_R4EccLf_EeyKsfoJcaU9Vg" extensionLocation="_r4ol4LgAEeyKsfoJcaU9Vg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UZD9ELgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ri95sLgAEeyKsfoJcaU9Vg" name="Plata Ramburs">
+      <extend xmi:type="uml:Extend" xmi:id="_rL6p0LgAEeyKsfoJcaU9Vg" extendedCase="_R4EccLf_EeyKsfoJcaU9Vg" extensionLocation="_rL7Q4LgAEeyKsfoJcaU9Vg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_V9b54LgAEeyKsfoJcaU9Vg" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LvsI8Lf_EeyKsfoJcaU9Vg" name="Client"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MNYKgLf_EeyKsfoJcaU9Vg" name="Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MfpmQLf_EeyKsfoJcaU9Vg" name="Curier"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ka3pQLf_EeyKsfoJcaU9Vg" memberEnd="_ka_lELf_EeyKsfoJcaU9Vg _kbAzMLf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ka9I0Lf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ka9v4Lf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ka_lELf_EeyKsfoJcaU9Vg" name="cumpara produs" type="_R4EccLf_EeyKsfoJcaU9Vg" association="_ka3pQLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kbAzMLf_EeyKsfoJcaU9Vg" name="client" type="_LvsI8Lf_EeyKsfoJcaU9Vg" association="_ka3pQLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lFU7gLf_EeyKsfoJcaU9Vg" memberEnd="_lFVikrf_EeyKsfoJcaU9Vg _lFWJoLf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lFVikLf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lFVikbf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lFVikrf_EeyKsfoJcaU9Vg" name="retur comanda" type="_XY614Lf_EeyKsfoJcaU9Vg" association="_lFU7gLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lFWJoLf_EeyKsfoJcaU9Vg" name="client" type="_LvsI8Lf_EeyKsfoJcaU9Vg" association="_lFU7gLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lph0wLf_EeyKsfoJcaU9Vg" memberEnd="_lpjC4Lf_EeyKsfoJcaU9Vg _lpjC4bf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lpib0Lf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lpib0bf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lpjC4Lf_EeyKsfoJcaU9Vg" name="urmareste status comanda" type="_TUmr4Lf_EeyKsfoJcaU9Vg" association="_lph0wLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lpjC4bf_EeyKsfoJcaU9Vg" name="client" type="_LvsI8Lf_EeyKsfoJcaU9Vg" association="_lph0wLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mXTgwLf_EeyKsfoJcaU9Vg" memberEnd="_mXUH0Lf_EeyKsfoJcaU9Vg _mXUH0bf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mXTgwbf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mXTgwrf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mXUH0Lf_EeyKsfoJcaU9Vg" name="cumpara produs" type="_R4EccLf_EeyKsfoJcaU9Vg" association="_mXTgwLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mXUH0bf_EeyKsfoJcaU9Vg" name="manager" type="_MNYKgLf_EeyKsfoJcaU9Vg" association="_mXTgwLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nGuykLf_EeyKsfoJcaU9Vg" memberEnd="_nGvZorf_EeyKsfoJcaU9Vg _nGwAsLf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nGvZoLf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGvZobf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nGvZorf_EeyKsfoJcaU9Vg" name="actualizeaza status" type="_gm8EoLf_EeyKsfoJcaU9Vg" association="_nGuykLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nGwAsLf_EeyKsfoJcaU9Vg" name="manager" type="_MNYKgLf_EeyKsfoJcaU9Vg" association="_nGuykLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oAjWgLf_EeyKsfoJcaU9Vg" memberEnd="_oAj9kLf_EeyKsfoJcaU9Vg _oAj9kbf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oAjWgbf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oAjWgrf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oAj9kLf_EeyKsfoJcaU9Vg" name="livreaza produs" type="_e9h20Lf_EeyKsfoJcaU9Vg" association="_oAjWgLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oAj9kbf_EeyKsfoJcaU9Vg" name="curier" type="_MfpmQLf_EeyKsfoJcaU9Vg" association="_oAjWgLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_orLA0Lf_EeyKsfoJcaU9Vg" memberEnd="_orLn4rf_EeyKsfoJcaU9Vg _orLn47f_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_orLn4Lf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_orLn4bf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_orLn4rf_EeyKsfoJcaU9Vg" name="actualizeaza status" type="_gm8EoLf_EeyKsfoJcaU9Vg" association="_orLA0Lf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_orLn47f_EeyKsfoJcaU9Vg" name="curier" type="_MfpmQLf_EeyKsfoJcaU9Vg" association="_orLA0Lf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pevLwLf_EeyKsfoJcaU9Vg" memberEnd="_pevy0rf_EeyKsfoJcaU9Vg _pevy07f_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pevy0Lf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pevy0bf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pevy0rf_EeyKsfoJcaU9Vg" name="retur comanda" type="_XY614Lf_EeyKsfoJcaU9Vg" association="_pevLwLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pevy07f_EeyKsfoJcaU9Vg" name="manager" type="_MNYKgLf_EeyKsfoJcaU9Vg" association="_pevLwLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q3-2oLf_EeyKsfoJcaU9Vg" memberEnd="_q3_dsrf_EeyKsfoJcaU9Vg _q4AEwLf_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q3_dsLf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q3_dsbf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q3_dsrf_EeyKsfoJcaU9Vg" name="retur comanda" type="_XY614Lf_EeyKsfoJcaU9Vg" association="_q3-2oLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q4AEwLf_EeyKsfoJcaU9Vg" name="curier" type="_MfpmQLf_EeyKsfoJcaU9Vg" association="_q3-2oLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_26hbcLf_EeyKsfoJcaU9Vg" memberEnd="_26iCgrf_EeyKsfoJcaU9Vg _26iCg7f_EeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_26iCgLf_EeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_26iCgbf_EeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_26iCgrf_EeyKsfoJcaU9Vg" name="urmareste status comanda" type="_TUmr4Lf_EeyKsfoJcaU9Vg" association="_26hbcLf_EeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_26iCg7f_EeyKsfoJcaU9Vg" name="manager" type="_MNYKgLf_EeyKsfoJcaU9Vg" association="_26hbcLf_EeyKsfoJcaU9Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e_AoELgAEeyKsfoJcaU9Vg" memberEnd="_e_BPILgAEeyKsfoJcaU9Vg _e_BPIbgAEeyKsfoJcaU9Vg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e_AoEbgAEeyKsfoJcaU9Vg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e_AoErgAEeyKsfoJcaU9Vg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e_BPILgAEeyKsfoJcaU9Vg" name="plata ramburs" type="_Ri95sLgAEeyKsfoJcaU9Vg" association="_e_AoELgAEeyKsfoJcaU9Vg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e_BPIbgAEeyKsfoJcaU9Vg" name="curier" type="_MfpmQLf_EeyKsfoJcaU9Vg" association="_e_AoELgAEeyKsfoJcaU9Vg"/>
+  </packagedElement>
+</uml:Model>
