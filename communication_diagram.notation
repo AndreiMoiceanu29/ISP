@@ -143,6 +143,9 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_LzSqULkiEeyKsfoJcaU9Vg" type="Path_Edge" source="_TLYHoLkhEeyKsfoJcaU9Vg" target="_XGxmMLkhEeyKsfoJcaU9Vg">
     <children xmi:type="notation:DecorationNode" xmi:id="_LzTRYLkiEeyKsfoJcaU9Vg" type="Path_MessageLabel">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yFZNgLmJEeyKsfoJcaU9Vg" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yFaboLmJEeyKsfoJcaU9Vg" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
       <layoutConstraint xmi:type="notation:Location" xmi:id="_LzTRYbkiEeyKsfoJcaU9Vg" x="-2" y="-85"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_LzTRYrkiEeyKsfoJcaU9Vg" type="Path_StereotypeLabel">
